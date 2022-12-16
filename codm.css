@@ -1,0 +1,500 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    
+}
+
+.bgvideo{
+    
+    width: 100%;
+    height: 695px;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.header{
+    padding-left: 78px;
+    padding-top: 14px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid white;
+    background-color:rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 41px;
+    z-index: 100;
+}
+.image{
+    position: relative;
+}
+
+.logo{
+  height: 30px;
+  width: 130px;
+  float: left;
+  padding-right: 55px;
+  cursor: pointer;
+}
+.button{
+    background-color: transparent;
+    color: rgb(165, 159, 159);
+    border: 0ch;
+    padding-right: 45px;
+    font-size: smaller;
+    font-weight:700;
+    float: left;
+    cursor: pointer;
+}
+.button:hover{
+    color: rgb(219, 213, 213);
+}
+
+
+.signup{
+    background-color: rgba(83, 95, 167, 0.5);
+    color: white;
+    font-weight: 800;
+    border-radius: 20px;
+    border-color: #0768af;
+    float: right;
+    cursor: pointer;
+}
+.sign{
+  margin-right: 230px;
+}
+.login{
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+    border-color:transparent;
+    float: right;
+    cursor: pointer;
+}
+.log{
+    margin-right: 161px;
+}
+.mww{
+    position: relative;
+    left: 148px;
+    top: -500px
+    
+}
+.mw{
+    height: 199px;
+    width: 389px
+}
+.t11{
+    position: relative;
+    top:-516px ;
+    left: 158px ;
+}
+#t1{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 900;
+
+}
+.bv{
+    position: relative;
+    top:-503px ;
+    left: 89px ;
+    
+    
+}
+.bn{
+    width: 244px;
+    height: 50px;
+    background-color: rgba(72, 91, 199, 0.4);
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 24px;
+    border-color: #0768af;
+    
+
+}
+.vs{
+    width: 210px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 24px;
+    border-color: white;
+    margin-left: 20px;
+}
+.vs:hover{
+    background-color: rgba(72, 91, 199, 0.4);
+    border-color: #1888d8;
+    cursor: pointer;
+}
+.inf{
+    position: relative;
+    margin-top: -412px;
+    float: right;
+    margin-right: 5px;
+    width:125px ;
+    height:60px ;
+}
+.two{
+    width: 100%;
+    /*background-color:#111111;*/
+    background-image:linear-gradient(rgb(32, 32, 32) ,black 50%);
+    height: 3504px;
+    margin-top: -370px;
+}
+.t2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 100px;
+}
+.menu{
+    width: 1170px;
+    height: 68px;
+    border-top: 1px solid white;
+    margin-left: 65px;
+    border-bottom: 1px solid white;
+    
+}
+.allnews{
+margin-left: 200px;
+width: 150px;
+height: 67px;
+background-color: #0769af4f;
+color: white;
+border: none;
+font-weight: 700;
+font-size: 20px;
+}
+.im1{
+    display: inline-block;
+    width: 150px;
+    height: 68px; 
+    padding-left: 20px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.img1{
+    width: 130px;
+    height: 28px;
+    margin-top: 13px;
+    
+}
+.im1:hover{
+    background-color: #0769af4f;
+    opacity: 1.0;
+}.flexbox{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding: 55px;
+    background-color: transparent;
+}
+.flexbox div{
+    
+    /*background-color: #3d3636;*/
+   background-image:radial-gradient(rgb(68, 68, 68) ,black);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    flex-wrap: wrap;
+    height: 450px;
+    width: 380px;
+    padding: 0;
+    border-radius: 10px;
+    
+}
+.imgg{
+    width: 380px;
+    cursor: pointer;
+}
+.p1{
+    margin-left: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.p2{
+    margin-left: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: 900;
+}
+.viewall{
+    left: 528px;
+    height: 54px;
+    width: 252px;
+    position: relative;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 29px;
+}
+.viewall:hover{
+    cursor: pointer;
+    background-color: #1888d8;
+}
+.rm{
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.rm:hover{
+    color: #0768af;
+}
+.three{
+    margin-top: 170px;
+    width: 100%;
+    height: 298px;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+
+}
+.text{
+    float: left;
+   padding-top: 25px;
+    color: white;
+    width: 300px;
+    height: 273px;
+    background-color: black;
+    padding-left: 90px;
+}
+.pic{
+    float: left;
+    width: 100px;
+}
+.pict{
+    width:100 ;
+    height: 298px;
+}
+.bt{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 29px;
+    height: 50px;
+    width: 210px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.bt:hover{
+    cursor: pointer;
+    background-color: #1888d8;
+}
+.community{
+    color: white;
+    margin-top: 150px;
+    font-size: 29px;
+    font-weight: 900;
+    text-align: center;
+}
+.four{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin-left: 128px;
+    border-top:1px gray solid ;
+    border-bottom: 1px gray solid;
+    
+    width: 1040px;
+    height: 370px;
+    gap: 10px;
+     padding: 10px;
+}
+.four div {
+    
+    background-color: #222222;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+  #onee{
+    background-color: black;
+  }
+  .ghost{
+    position: absolute;
+    width: 315px;
+    height: 410px;
+    left: 140px;
+    margin-top: -380px;
+    
+  }
+.icon{
+
+    margin-top: 15px;
+    width: 50px;
+    margin-left: -261px;
+    border: white 2px solid;
+    border-radius: 50px;
+    
+  }
+  .twit{
+    position: absolute;
+    margin-left: 85px;
+    margin-top: -71px;
+    
+
+  }
+  .txt{
+    font-size: 17px;
+
+    color: #50a1db;
+
+  }
+  .detail{
+    font-size: 19px;
+    margin-left: -69px;
+}
+.dragon{
+    margin-top: 170px;
+    position: relative;
+    width: 100%;
+    left: -215px;
+
+}
+.dg{
+    height: 296px;
+    
+}
+.black{
+    width: 100%;
+    position: absolute;
+    margin-top: -300px;
+    height: 298px;
+    background-image: linear-gradient( to left,black 25%,transparent);  
+    
+      
+}
+.black2{
+    width: 100%;
+    position: absolute;
+    margin-top: -300px;
+    height: 298px;
+    background-image: linear-gradient( to right,black,transparent 20%);  
+    border-top:1px solid rgb(173, 171, 171);
+     
+}
+.have{
+background-color: transparent;
+height: 298px;
+float: left;
+margin-left: 66px;
+}
+.team{
+    float: left;
+    display: inline;
+    position: absolute;
+    margin-left: 570px;
+    height: 298px;
+    background-color: transparent;
+  
+}
+.fun{
+color: #0c66a7;
+font-size: 35px;
+font-weight: 900;
+}
+.more{
+color: white;
+font-size: 30px;
+}
+.h2{
+    color: white;
+}
+td{
+    color: white;
+}
+.pt1{
+   height: 279px;
+   width:380px;
+   background-color: transparent;
+   float: left;
+   padding-left: 50px;
+   padding-top: 40px;
+}
+.pt2{
+    height: 279px ;
+    width: 258px; 
+    padding-left: 20px;
+    padding-top: 40px;
+    background-color: transparent;
+    float: left;
+    color: white;
+    padding-bottom: 10px;
+ 
+}
+.pt3{
+    height: 279px ;
+    width: 258px; 
+    padding-left: 20px;
+    padding-top: 40px;
+    background-color: transparent;
+    float: left;
+    color: white;
+}
+.pt4{
+    height: 279px ;
+    width: 258px; 
+    padding-left: 20px;
+    padding-top: 40px;
+    background-color: transparent;
+    float: left;
+    color: white;
+}
+.fu{
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+}
+.btnn{
+   padding-right: 10px; 
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btnn:hover{
+ background-color: #0768af;
+}
+.btnn:active{
+    background-color: #2295e7;
+   }
+
+.six{
+    position: absolute;
+    width: 84px;
+    height: 54px;
+    left: 64px;
+    margin-top: 127px;
+}
+.esrb{
+    position: absolute;
+    width: 40px;
+    height: 54px;
+    left: 159px;
+    margin-top: 128px;
+}
+.det{
+    color:#928b8b;
+    padding-top: 10px;
+}
+.det:hover{
+    color:#c4bdbd;
+    cursor: pointer;
+}
+.flogo{
+    position: relative;
+    left: -179px;
+    width: 249px;
+    height: 67px;
+    margin-top: 10px;
+}
+.ftext{
+    position: relative;
+    left: 512px;
+    color: white;
+    margin-top: -2px;
+}
